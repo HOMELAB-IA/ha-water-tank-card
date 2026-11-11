@@ -1,5 +1,7 @@
 # Water Tank Card
 
+![Banner](docs/banner.png)
+
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 
 Carte Lovelace Home Assistant pour visualiser le niveau d'une citerne ou cuve d'eau.
