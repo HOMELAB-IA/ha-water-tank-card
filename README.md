@@ -18,7 +18,7 @@ Carte Lovelace Home Assistant pour visualiser le niveau d'une citerne ou cuve d'
 
 ## Installation via HACS
 
-[![Ouvrir dans HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=HOMELAB-IA&repository=ha-water-tank-card&category=lovelace)
+[![Ouvrir dans HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=HOMELAB-IA&repository=ha-water-tank-card&category=plugin)
 
 Ou manuellement :
 
