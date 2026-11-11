@@ -1,0 +1,53 @@
+<svg width="360" height="380" viewBox="0 0 360 380" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+  <!-- Card background -->
+  <rect width="360" height="380" rx="16" fill="#1a1c20"/>
+
+  <!-- Header -->
+  <text x="20" y="36" font-size="15" font-weight="600" fill="#e1e1e1">Citerne d'eau de pluie</text>
+  <rect x="230" y="16" width="110" height="26" rx="13" fill="rgba(255,152,0,.15)" stroke="rgba(255,152,0,.35)" stroke-width="1"/>
+  <circle cx="246" cy="29" r="4" fill="#ff9800"/>
+  <text x="258" y="33" font-size="11" font-weight="600" fill="#ff9800">HORS LIGNE</text>
+
+  <!-- Tank SVG -->
+  <defs>
+    <clipPath id="tc">
+      <circle cx="88" cy="210" r="62"/>
+    </clipPath>
+    <radialGradient id="tbg" cx="38%" cy="32%" r="70%">
+      <stop offset="0%" stop-color="#3a3d44"/>
+      <stop offset="100%" stop-color="#18191d"/>
+    </radialGradient>
+  </defs>
+  <circle cx="88" cy="210" r="62" fill="url(#tbg)"/>
+  <!-- Water fill at 65% -->
+  <rect x="26" y="169" width="124" height="103" fill="#2b6cb0" clip-path="url(#tc)"/>
+  <ellipse cx="88" cy="169" rx="57" ry="6" fill="#4299e1" opacity="0.55" clip-path="url(#tc)"/>
+  <circle cx="88" cy="210" r="62" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+  <ellipse cx="73" cy="175" rx="13" ry="7" fill="white" opacity="0.07"/>
+
+  <!-- Stats -->
+  <text x="186" y="200" font-size="62" font-weight="300" fill="#e1e1e1">65</text>
+  <text x="248" y="200" font-size="30" font-weight="300" fill="rgba(225,225,225,.7)">%</text>
+  <text x="186" y="230" font-size="15" fill="#9b9b9b">3 250 l</text>
+
+  <!-- Divider + details -->
+  <line x1="20" y1="288" x2="340" y2="288" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+
+  <!-- Toggle row -->
+  <text x="20" y="310" font-size="11" font-weight="600" letter-spacing="1" fill="#9b9b9b">DÉTAILS CAPTEUR</text>
+  <path d="M330 304 L336 310 L342 304" stroke="#9b9b9b" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Detail rows -->
+  <rect x="20" y="322" width="20" height="20" rx="4" fill="rgba(59,139,212,.25)"/>
+  <text x="30" y="336" font-size="11" fill="#3b8bd4" text-anchor="middle" font-weight="700">I</text>
+  <text x="50" y="336" font-size="13" fill="#9b9b9b">hauteur</text>
+  <text x="220" y="336" font-size="13" fill="#e1e1e1" font-weight="500">0,65<tspan fill="#9b9b9b" font-weight="400"> m</tspan></text>
+
+  <rect x="20" y="348" width="20" height="20" rx="4" fill="rgba(255,255,255,.08)"/>
+  <text x="30" y="362" font-size="11" fill="#9b9b9b" text-anchor="middle" font-weight="700">—</text>
+  <text x="50" y="362" font-size="13" fill="#9b9b9b">mesure</text>
+  <text x="220" y="362" font-size="13" fill="#e1e1e1" font-weight="500">1,35<tspan fill="#9b9b9b" font-weight="400"> m</tspan></text>
+
+  <!-- Last updated -->
+  <text x="20" y="390" font-size="11" fill="rgba(155,155,155,.7)">mis à jour il y a 2 min</text>
+</svg>

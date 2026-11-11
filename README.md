@@ -4,6 +4,8 @@
 
 Carte Lovelace Home Assistant pour visualiser le niveau d'une citerne ou cuve d'eau.
 
+![Aperçu de la carte](docs/preview.svg)
+
 ## Fonctionnalités
 
 - Visualisation circulaire du niveau d'eau (remplissage SVG dynamique)
