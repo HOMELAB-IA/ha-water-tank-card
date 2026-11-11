@@ -29,11 +29,14 @@
   "lint-staged": {
     "src/**/*.ts": ["eslint --fix", "prettier --write"]
   },
+  "overrides": {
+    "minimatch": "^6.0.4"
+  },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "15.3.0",
     "@rollup/plugin-typescript": "12.1.1",
-    "@typescript-eslint/eslint-plugin": "8.17.0",
-    "@typescript-eslint/parser": "8.17.0",
+    "@typescript-eslint/eslint-plugin": "8.33.1",
+    "@typescript-eslint/parser": "8.33.1",
     "eslint": "9.39.5",
     "husky": "9.1.7",
     "lint-staged": "17.6.0",
